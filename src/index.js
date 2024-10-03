@@ -6,6 +6,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./pages/App";
 import NotFound from "./pages/NotFound";
 
+import Tampa from "./pages/Tampa";
+
 // To add your own page, uncomment the following import statement.
 // Replace `ExampleCity` with the name of your city.
 // E.g. Ottawa, ON -> `Ottawa`.
@@ -18,6 +20,7 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
 
+        <Route path="/tampa" element={<Tampa />} />
         {/*
           To add your own page, copy paste and uncomment the following code! 
           Replace `/example-city` and `ExampleCity` with the name of your city.
