@@ -12,7 +12,7 @@ export default function Map() {
 
   const shopifyLocation = {
     name: "Vancouver Independent School for Science and Technology (VISST)",
-    address: "200-1490 Broadway W, VANCOUVER BRITISH COLUMBIA V6H 1H5",
+    address: "1490 W Broadway #200, Vancouver, BC V6H 4E8",
     latitude: 49.263280,
     longitude:  -123.138159
   };
@@ -58,7 +58,7 @@ export default function Map() {
               <strong>{shopifyLocation.name}</strong>
               <br />
               <a 
-                href="https://maps.app.goo.gl/6kNJ5wM6J2jk3NhS8"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
               >

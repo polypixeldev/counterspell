@@ -9,8 +9,8 @@ const Teamgallery = () => {
     },
     {
         name: "Elijah Dumaquita",
-        image: "https://cloud-aav6hvxfx-hack-club-bot.vercel.app/0profile.jpg",
-        link: "https://ye-gao-website.vercel.app/"
+        image: "",
+        link: ""
     },
     {
       name: "YeJoon",
@@ -19,7 +19,7 @@ const Teamgallery = () => {
     },
     {
       name: "Tanish Shah",
-      image: "https://cloud-2pkdet19k-hack-club-bot.vercel.app/0image.png",
+      image: "",
       link: "https://linkedin.com/"
     },
   ];

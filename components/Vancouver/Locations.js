@@ -9,12 +9,12 @@ export default function Locations() {
       <div className="relative px-6 py-24 text-center text-5xl neuebit bg-darker retro">
           Meet Us At{' '} 
           <a 
-            href="https://www.google.com/maps/dir/?api=1&destination=620+King+St+W,+Toronto,+ON+M5V+1M7"
+            href="https://maps.app.goo.gl/Lq6LM8PnX8e9fTKE6"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-300"
           >
-            Shopify Toronto 620 King St W
+          Vancouver Independent School for Science and Technology, 1490 W Broadway #200, Vancouver, BC V6H 4E8
           </a>!
 
       <div className="flex justify-center text-center text-2xl space-y-2 my-20">
