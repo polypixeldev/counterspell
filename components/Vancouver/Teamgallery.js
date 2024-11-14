@@ -4,13 +4,13 @@ const Teamgallery = () => {
   const teamMembers = [
     {
         name: "Shourya Wadhwa",
-        image: "",
-        link: "https://linkedin.com/shouryawadhwa"
+        image: "https://media.licdn.com/dms/image/v2/D5603AQF1G9aW5wLgyQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1731620835404?e=2147483647&v=beta&t=Evt1hScWSj_twzJFE2HB6HV8ti3Y3yAaHHVNo_FIVgE",
+        link: "https://github.com/coderlogy"
     },
     {
         name: "Elijah Dumaquita",
-        image: "",
-        link: ""
+        image: "https://media.licdn.com/dms/image/v2/D5603AQHJHAsk1UlDrw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1730149173531?e=2147483647&v=beta&t=s9nZg5rmyV_wXqb28l7x5ldE8Yq3ayhDp6LAaWtVpiI",
+        link: "https://www.linkedin.com/in/elijah-dumaquita-b13011310/?originalSubdomain=ca"
     },
     {
       name: "YeJoon",
@@ -20,7 +20,7 @@ const Teamgallery = () => {
     {
       name: "Tanish Shah",
       image: "",
-      link: "https://linkedin.com/"
+      link: ""
     },
   ];
 

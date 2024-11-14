@@ -1,7 +1,12 @@
 export default function Schedule() {
   // TODO: Edit this to match your event schedule
   const schedule = [
-    { time: "10:00 AM", event: "TBD" },
+    { time: "9:30 AM", event: "Intro and Welcome" },
+    { time: "10:00 AM", event: "Workshop" },
+    { time: "12:00 PM", event: "Lunch Break" },
+    { time: "12:30 PM", event: "Hackathon Session" },
+    { time: "5:30 PM", event: "Review and Winners Announcement" },
+    { time: "6:00 PM", event: "End of Event" }
   ];
 
   return (
