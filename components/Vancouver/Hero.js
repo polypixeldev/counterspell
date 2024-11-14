@@ -78,7 +78,7 @@ function HeroScroll() {
                 A BEGINNER FRIENDLY GAME JAM
               </p>
               <p className="text-pink retro text-[80%] sm:text-[90%] lg:text-[90%] mt-2">
-                NOVEMBER 23 OR 24th, 2024 • VISST Vancouver
+                NOVEMBER 23 OR 24th, 2024 • VISST VANCOUVER
               </p>
             </div>
           </div>
