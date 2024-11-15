@@ -1,9 +1,10 @@
+
 "======== READ ME BEFORE EDITING ========";
 /*
 Hello! this is the template for the city pages.
 
 To create a new page, make a copy of this file in the same directory (pages) and rename it for your city.
-Make a copy of the example components (components/Chennai) and rename it for your city.
+Make a copy of the example components (components/ExampleCity) and rename it for your city.
 E.g. Ottawa, ON -> Ottawa.js and components/Ottawa.
 
 Replace all placeholder info, indicated by "TODO" comments, in this file and the components with the appropriate content!
@@ -27,17 +28,17 @@ import React, { useEffect, useRef, useState } from "react";
 import useSound from "use-sound";
 import Head from "next/head";
 
-// TODO: Change `Chennai` to the name of your city. This should match the folder you copied!
-import Hero from "../components/Chennai/Hero";
-import About from "../components/Chennai/About";
-import Guilds from "../components/Chennai/Guilds";
-import Steps from "../components/Chennai/Steps";
-import Locations from "../components/Chennai/Locations";
-import Faq from "../components/Chennai/Faq";
-import Footer from "../components/Chennai/Footer";
+// TODO: Change `ExampleCity` to the name of your city. This should match the folder you copied!
+import Hero from "../components/Patna/Hero";
+import About from "../components/Patna/About";
+import Guilds from "../components/Patna/Guilds";
+import Steps from "../components/Patna/Steps";
+import Locations from "../components/Patna/Locations";
+import Faq from "../components/Patna/Faq";
+import Footer from "../components/Patna/Footer";
 
-// TODO: Change `Chennai` to the name of your city
-export default function Chennai() {
+// TODO: Change `ExampleCity` to the name of your city
+export default function Patna() {
   const [docHeight, setDocHeight] = useState(0);
   const [scrollPos, setScrollPos] = useState(0);
   const [isMuted, setIsMuted] = useState(true);
@@ -71,8 +72,8 @@ export default function Chennai() {
   return (
     <>
       <Head>
-        {/* TODO: Change `Chennai` to the name of your city */}
-        <title>Counterspell Chennai</title>
+        {/* TODO: Change `Example City` to the name of your city */}
+        <title>Counterspell Patna</title>
       </Head>
       <div>
         <div
@@ -125,14 +126,7 @@ export default function Chennai() {
         <audio ref={audioRef} loop autoPlay>
           <source src="/music.mp3" type="audio/mp3" />
         </audio>
-        <a
-          href="https://forms.hackclub.com/t/sdMpoL7wK9us"
-          className="text-white fixed top-4 right-4 retro bg-pink py-2 px-3 lg:py-3 lg:px-4 uppercase z-50 hover:scale-105 hover:text-white no-underline md:text-[1.5rem] lg:text-[1.7rem]"
-          style={{ textDecoration:'none' }}
-        >
-          Sign Up!
-        </a>
-        
+
         <Hero />
 
         <div className="relative">

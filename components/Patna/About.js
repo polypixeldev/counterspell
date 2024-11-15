@@ -8,9 +8,9 @@ export default function About() {
         <div className="grid grid-cols-1 xl:grid-cols-2 grid-rows-2 gap-12 leading-[3rem] tracking-wider mx-6 2xl:mx-0">
           <div className="row-span-2 p-8 space-y-12 border-4 border-dashed border-pink md:p-12">
             <p>
-              {/* TODO: Change `Chennai` to the name of your city */}
-              Counterspell Chennai is a beginner friendly game jam for high
-              schoolers happening in Chennai where{" "}
+              {/* TODO: Change `Example City` to the name of your city */}
+              Counterspell Patna is a beginner friendly game jam for high
+              schoolers happening in Patna where{" "}
               <span className="text-pink">
                 artists, musicians, and coders
               </span>{" "}
@@ -18,8 +18,8 @@ export default function About() {
             </p>
             <p className="text-2xl uppercase retro">Build whatever you want!</p>
             <p>
-              {/* TODO: Change `Chennai` to the name of your city */}
-              Any game counts! The theme for Counterspell Chennai will be
+              {/* TODO: Change `Example City` to the name of your city */}
+              Any game counts! The theme for Counterspell Patna will be
               decided through peer voting before the event starts.{" "}
             </p>
             <p>
