@@ -65,7 +65,7 @@ export default function Sponsor() {
         <SponsorTier
           sponsorsPerRow={2}
           sponsorInfo={[
-            { fileName: "hackclub.png", name: "Hacklub Logo", url: "https://www.hackclub.com" },
+            { fileName: "hackclub.png", name: "Hacklub Logo", url: "https://www." },
           ]}
         />
         {/*Bronze Sponsors*/}
