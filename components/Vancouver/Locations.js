@@ -6,7 +6,7 @@ const Map = dynamic(() => import("./Map"), { ssr:false });
 export default function Locations() {
   return (
     
-      <div className="relative px-3 py-24 text-center text-5xl neuebit bg-darker retro">
+      <div className="relative px-6 py-24 text-center text-5xl neuebit bg-darker retro">
           Meet Us At{' '} 
           <a 
             href="https://maps.app.goo.gl/Lq6LM8PnX8e9fTKE6"
