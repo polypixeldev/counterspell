@@ -49,7 +49,7 @@ export default function Sponsor() {
         </div>
         <div className="text-2xl Sponser text-white font-semibold text-center fusion-pixel">
           If you are interested in becoming a sponsor, please contact us
-          at <a href="mailto:counterspellgta@gmail.com">counterspellgta@gmail.com</a>
+          at <a href="mailto:toronto@counterspell.hackclub.com">toronto@counterspell.hackclub.com</a>.
         </div>
       </div>
       <div className="w-full flex flex-col items-center lg:pt-12 md:pt-8 pt-6">
