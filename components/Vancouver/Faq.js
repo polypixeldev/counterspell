@@ -61,6 +61,7 @@ const faqData = [
     question: "My parents are worried!",
     answer: `We're here to help! Ask them to reach out to us at
           <a href="mailto:sourceboxtv@gmail.com">sourceboxtv@gmail.com</a>
+          , or contact me here at this phone number
           <a href="tel:+1236-512-8246">236-512-8246</a>
           and we'll make sure to answer all their questions!`,
   },
