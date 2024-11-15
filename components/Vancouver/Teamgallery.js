@@ -14,8 +14,8 @@ const Teamgallery = () => {
     },
     {
       name: "YeJoon",
-      image: "",
-      link: ""
+      image: "https://avatars.githubusercontent.com/u/63943594?v=4",
+      link: "https://github.com/unsignd"
     },
     {
       name: "Tanish Shah",
