@@ -19,8 +19,8 @@ const Teamgallery = () => {
     },
     {
       name: "Tanish Shah",
-      image: "",
-      link: ""
+      image: "https://cdn.discordapp.com/attachments/1288908235838980207/1306831636918439936/AP1GczNP4EdlzqCYIQfYyYm8aKqyIsAFgycRBTTD69RFgXY8CosxvjwHDYsKVAw960-h1280-s-no.png?ex=6738194d&is=6736c7cd&hm=1f183e1cef5c3a4bbb2a14f7ea3858f60698a11b9fc7c999ae43f10221df5daf&",
+      link: "https://www.instagram.com/incognitton"
     },
   ];
 

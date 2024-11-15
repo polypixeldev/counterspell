@@ -51,16 +51,17 @@ const faqData = [
   },
   {
     question: "What can I make at Counterspell?",
-    answer: `At Counterspell, we're building video games of all kinds! The theme will be revealed at the start of the hackathon.`,
+    answer: `At Counterspell, we're building video games of all kinds! The theme is "Magic". Dont make anything before the event or your submission would automatically be rejected.`,
   },
   {
     question: "What do I need to bring to Counterspell?",
-    answer: `Your laptop, charger, and an open mind! If your location is overnight, also bring toiletries, and a sleeping bag.`,
+    answer: `It's a Bring your own Device (BYOD) event so bring your laptop, charger,whatever else you want food ? works if it is not smelly or oily, and an open mind!`,
   },
   {
     question: "My parents are worried!",
     answer: `We're here to help! Ask them to reach out to us at
-          <a href="mailto:counterspell@hackclub.com">counterspell@hackclub.com</a>
+          <a href="mailto:sourceboxtv@gmail.com">sourceboxtv@gmail.com</a>
+          <a href="tel:+1236-512-8246">236-512-8246</a>
           and we'll make sure to answer all their questions!`,
   },
   {
