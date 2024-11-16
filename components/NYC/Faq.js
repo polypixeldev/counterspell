@@ -69,7 +69,7 @@ const faqData = [
           <a href="https://hackclub.com/slack/">#counterspell</a>
           on the Hack Club Slack or email us at
           <a href="mailto:counterspell@hackclub.com">counterspell@hackclub.com</a>.
-          We're always ready to answer all your questions!`,
+          We're always ready to answer all your questions! Want to talk to the organizers? <a href="mailto:rami7farran@gmail.com">rami7farran@gmail.com</a>`,
   },
 ];
 
