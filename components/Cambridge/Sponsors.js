@@ -53,24 +53,13 @@ export default function Sponsors() {
                 target="_blank"
                 class="motion-safe:hover:scale-105 motion-safe:transition-all flex"
               >
-                <img
-                  src="https://fireaway.co.uk/wp-content/uploads/2021/05/Group-15.png"
-                  alt="Fireaway Pizza Cambridge"
-                  class="w-auto h-15 md:h-28"
-                  style={{ imageRendering: "auto" }}
-                />
-              </a>
-              <a
-              href="https://www.yifangteaglobal.com/"
-              target="_blank"
-              class="motion-safe:hover:scale-105 motion-safe:transition-all flex"
-            >
               <img
-                src="/city/cambridge/yifang.jpeg"
-                alt="Yi Fang"
-                class="w-auto h-24 md:h-13"
+                src="https://fireaway.co.uk/wp-content/uploads/2021/05/Group-15.png"
+                alt="Fireaway Pizza Cambridge"
+                class="w-auto h-15 md:h-28"
+                style={{ imageRendering: "auto" }}
               />
-            </a>
+              </a>
             </div>
             
           </div>
