@@ -22,8 +22,8 @@ export default function About() {
             </p>
             <p>
               Whether you’re a beginner or experienced in programming- we’ll
-              have workshops, resources and mentors throughout the 24 hours to
-              help you with your project.
+              have workshops, resources and mentors throughout the end of hackathon 
+              will help you with your project.
             </p>
             <p>
               <a href="https://discord.gg/FGP8DAfx"> Join our Discord Group </a>

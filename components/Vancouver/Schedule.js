@@ -5,7 +5,8 @@ export default function Schedule() {
     { time: "10:00 AM", event: "Workshop 1" },
     { time: "11:00 AM", event: "Workshop 2" },
     { time: "12:00 PM", event: "Lunch Break" },
-    { time: "12:30 PM", event: "Hackathon Session" },
+    { time: "12:30 PM", event: "Hackathon Session Starts" },
+    { time: "5:00 PM", event: "Hackathon Session Ends" },
     { time: "5:30 PM", event: "Review and Winners Announcement" },
     { time: "6:00 PM", event: "End of Event" }
   ];

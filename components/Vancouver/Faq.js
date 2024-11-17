@@ -47,7 +47,7 @@ const faqData = [
   },
   {
     question: "I'm not good at coding, can I join?",
-    answer: `This hackathon is for hackers of all skill levels! We'll have workshops and other events so join us and let's learn together. If you'd like to start exploring some introductory projects, check out <a href="https://workshops.hackclub.com/">Hack Club Workshops</a>.`,
+    answer: `Well first of fall this event is not about coding, if you love art or music or even you are good public speaker you can be asset to a team and secondly this hackathon is for hackers of all skill levels! We'll have workshops and other events so join us and let's learn together. If you'd like to start exploring some introductory projects, check out <a href="https://workshops.hackclub.com/">Hack Club Workshops</a>.`,
   },
   {
     question: "What can I make at Counterspell?",
