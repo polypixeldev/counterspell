@@ -66,6 +66,7 @@ export default function Sponsor() {
           sponsorInfo={[
             { fileName: "terraCotta.png", name: "Terra Cotta Cookies Logo", url: "https://terracottacookies.com/" },
             { fileName: "ubisoft-logo.png", name: "Ubisoft Logo", url: "https://www.ubisoft.com/en-us/" },
+            { fileName: "1Password.png", name: "1Password Logo", url: "https://1password.com/" },
           ]}
         />
         {/*Bronze Sponsors*/}
