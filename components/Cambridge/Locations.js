@@ -1,5 +1,4 @@
-import Subscribe from "../Subscribe";
-
+import Sponsors from "./Sponsors"
 export default function Locations() {
   // Do not update this list! We'll update it for you.
   const cities = [
@@ -16,6 +15,7 @@ export default function Locations() {
 
   return (
     <div className="relative px-6 py-24 text-center neuebit bg-darker retro">
+      <Sponsors />
       <p className="text-3xl uppercase">
         Check out other Counterspell cities!
       </p>
