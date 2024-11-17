@@ -54,7 +54,7 @@ export default function Wolverhampton() {
       <div>
         <div className="fixed top-4 right-4 z-50">
           <a
-            href="https://tally.so/r/mDJEqE"
+            href="https://forms.hackclub.com/t/sdMpoL7wK9us"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-6 py-2 font-bold text-white uppercase transition-all bg-pink hover:bg-pink/80 rounded-sm no-underline"

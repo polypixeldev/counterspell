@@ -6,7 +6,7 @@ import Hero from "../components/Cambridge/Hero";
 import About from "../components/Cambridge/About";
 import Guilds from "../components/Cambridge/Guilds";
 import Steps from "../components/Cambridge/Steps";
-import Locations from "../components/Cambridge/Locations";
+import Sponsors from "../components/Cambridge/Sponsors";
 import Faq from "../components/Cambridge/Faq";
 import Footer from "../components/Cambridge/Footer";
 
@@ -114,7 +114,7 @@ export default function Cambridge() {
           <About />
           <Guilds />
           <Steps />
-          <Locations />
+          <Sponsors />
 
           <div className="flex flex-col justify-center py-12 text-center faq retro">
             <div className="m-6">
