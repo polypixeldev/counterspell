@@ -36,7 +36,7 @@ const faqData = [
   },
   {
     question: "Does participating cost anything?",
-    answer: `It's entirely free! We'll have meals, snacks, and beverages onsite at the hackathon, as well as swag, prizes, and fun mini-events.`,
+    answer: `It's entirely free! We'll have meals, snacks, and beverages onsite at the hackathon, as well as swag, prizes, and fun mini-events. But, if you're in a position to donate, we'd apperciate it. <a href = "https://hcb.hackclub.com/donations/start/counterspell-new-york">Our Donation Page!</a>`,
   },
   {
     question: "What has Hack Club done before?",
