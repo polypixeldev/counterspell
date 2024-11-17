@@ -27,7 +27,7 @@ export default function Schedule() {
   return (
     <>
       <h2
-        className="text-center text-4xl uppercase retro text-whitepurp"
+        className="text-center text-6xl uppercase retro text-whitepurp"
         id="schedule"
       >
         Schedule
@@ -35,7 +35,7 @@ export default function Schedule() {
       <div className="flex flex-col items-center neuebit">
         {schedule.map((day, dayIndex) => (
           <div key={dayIndex} className="w-full max-w-3xl px-12 pb-12">
-            <h3 className="text-3xl font-bold mb-4 text-whitepurp">
+            <h3 className="text-4xl font-bold uppercase retro text-whitepurp">
               {day.day}
             </h3>
             <div className="flex flex-col space-y-2 text-xl sm:text-2xl lg:text-3xl">
