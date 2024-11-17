@@ -190,7 +190,7 @@ function CountdownTimer({ targetDate }) {
           </div>
         </div>
       ) : (
-        <span>Time's up!</span>
+        <span>Welcome to Counterspell!</span>
       )}
     </div>
   );
