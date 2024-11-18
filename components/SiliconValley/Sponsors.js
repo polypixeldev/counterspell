@@ -38,15 +38,6 @@ export default function Sponsors() {
       .catch((error) => console.error("Error fetching sponsors:", error));
   }, []);
 
-  const [other_sponsors, setOtherSponsors] = useState([]);
-  useEffect(() => {
-    const timestamp = new Date().getTime();
-    fetch(`https://adamxu.net/counterspell/other.json?t=${timestamp}`)
-      .then((response) => response.json())
-      .then((data) => setOtherSponsors(data))
-      .catch((error) => console.error("Error fetching sponsors:", error));
-  }, []);
-
   return (
     <div className="py-12 space-y-6">
       <div className="flex flex-col justify-center text-center">
@@ -61,7 +52,7 @@ export default function Sponsors() {
           {/* <br></br> */}
           <div
             className="flex justify-center mx-12 my-6"
-            style={{ transform: "scale(1.15)", marginTop: "2rem" }}
+            style={{ transform: "scale(1)", marginTop: "2rem" }}
           >
             <div className="flex flex-wrap items-center justify-center gap-6 p-8 border-4 border-dashed border-pink inter">
               {partner_sponsors.map((sponsor, index) => (
@@ -82,7 +73,7 @@ export default function Sponsors() {
           </p>
           <div
             className="flex justify-center mx-12 my-6"
-            tyle={{ transform: "scale(1.05)", marginTop: "1.5rem" }}
+            tyle={{ transform: "scale(1)", marginTop: "1.5rem" }}
           >
             <div className="flex flex-wrap items-center justify-center gap-6 p-8 border-4 border-dashed border-pink inter">
               {gold_sponsors.map((sponsor, index) => (
@@ -282,44 +273,6 @@ function SponsorCardBronze(props) {
 }
 
 function SponsorCardBronzeInner(props) {
-  return (
-    <div className="p-4 text-xl leading-6 tracking-wide neuebit">
-      <div className="flex flex-col items-center justify-center w-[200px] h-[200px]">
-        <div className="relative w-full h-full">
-          <img
-            src={props.img}
-            alt={props.text}
-            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 max-w-full max-h-full object-contain"
-          />
-        </div>
-      </div>
-      <p className="h-24 px-2 flex items-center w-[200px]">{props.text}</p>
-    </div>
-  );
-}
-
-function SponsorCardOther(props) {
-  return (
-    <a
-      href={props.link}
-      target="_blank"
-      rel="noopener noreferrer"
-      style={{
-        transition: "transform 0.2s ease-in-out",
-        display: "inline-block",
-        textDecoration: "none",
-        color: "inherit",
-        backgroundColor: "#65709c",
-      }}
-      onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.05)")}
-      onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
-    >
-      <SponsorCardOtherInner img={props.img} text={props.text} />
-    </a>
-  );
-}
-
-function SponsorCardOtherInner(props) {
   return (
     <div className="p-4 text-xl leading-6 tracking-wide neuebit">
       <div className="flex flex-col items-center justify-center w-[200px] h-[200px]">

@@ -20,7 +20,7 @@ const Teamgallery = () => {
     {
       name: "Darren",
       image: "https://cloud-2pkdet19k-hack-club-bot.vercel.app/0image.png",
-      link: "https://linkedin.com/"
+      link: "www.wenxuansu.com"
     },
     {
       name: "Ilya",

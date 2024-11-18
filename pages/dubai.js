@@ -1,19 +1,43 @@
+"======== READ ME BEFORE EDITING ========";
+/*
+Hello! this is the template for the city pages.
+
+To create a new page, make a copy of this file in the same directory (pages) and rename it for your city.
+Make a copy of the example components (components/ExampleCity) and rename it for your city.
+E.g. Ottawa, ON -> Ottawa.js and components/Ottawa.
+
+Replace all placeholder info, indicated by "TODO" comments, in this file and the components with the appropriate content!
+You do not need to use this template exactly, feel free to customize it as much as you see fit.
+
+Once you're done, make a copy of this file, rename it to your event, and edit it!
+E.g. Basking Ridge, NJ -> basking-ridge.js
+
+If you want to include additional assets, please add them under public/city/your-city-name.
+
+Make a PR and we'll review it as soon as we can!
+
+If you have any questions, send a message to the #counterspell channel on the Hack Club Slack and we'll try to help.
+
+P.S. Feel free to delete this comment block when you're done! 
+
+Note: To test your changes locally, use `yarn install` and `yarn dev`.
+*/
+
 import React, { useEffect, useRef, useState } from "react";
 import useSound from "use-sound";
 import Head from "next/head";
 
-import Hero from "../components/Toronto/Hero";
-import About from "../components/Toronto/About";
-import Guilds from "../components/Toronto/Guilds";
-import Steps from "../components/Toronto/Steps";
-import Locations from "../components/Toronto/Locations";
-import Faq from "../components/Toronto/Faq";
-import Sponsor from "../components/Toronto/Sponsor"
-import Footer from "../components/Toronto/Footer";
-//import Teamgallery from "../components/Toronto/Teamgallery";
-import CountdownTimer from "../components/Toronto/CountdownTimer";
+// TODO: Change `ExampleCity` to the name of your city. This should match the folder you copied!
+import Hero from "../components/Dubai/Hero";
+import About from "../components/Dubai/About";
+import Guilds from "../components/Dubai/Guilds";
+import Steps from "../components/Dubai/Steps";
+import Locations from "../components/Dubai/Locations";
+import Faq from "../components/Dubai/Faq";
+import Footer from "../components/Dubai/Footer";
 
-export default function Toronto() {
+// TODO: Change `ExampleCity` to the name of your city
+export default function Dubai() {
   const [docHeight, setDocHeight] = useState(0);
   const [scrollPos, setScrollPos] = useState(0);
   const [isMuted, setIsMuted] = useState(true);
@@ -47,7 +71,8 @@ export default function Toronto() {
   return (
     <>
       <Head>
-        <title>Counterspell Toronto</title>
+        {/* TODO: Change `Example City` to the name of your city */}
+        <title>Counterspell Dubai</title>
       </Head>
       <div>
         <div
@@ -98,46 +123,39 @@ export default function Toronto() {
           </div>
         </div>
         <audio ref={audioRef} loop autoPlay>
-          <source src="/music.mp3" type="audio/mp3"/>
+          <source src="/music.mp3" type="audio/mp3" />
         </audio>
-        <a
-          href="https://forms.hackclub.com/t/sdMpoL7wK9us"
-          className="text-white fixed top-4 right-4 retro bg-pink py-2 px-3 lg:py-3 lg:px-4 z-50 hover:scale-105 hover:text-white no-underline md:text-[1.5rem] lg:text-[1.7rem]"
-          style={{ textDecoration:'none' }}
-        >
-          Sign Up
-        </a>
-        <Hero/>
+
+        <Hero />
 
         <div className="relative">
           <div className="absolute top-0 left-0 right-0 pointer-events-none -bottom-4 grainy-bg"></div>
           <div className="absolute top-0 left-0 right-0 -bottom-4 -z-10 bg-dark"></div>
 
-          <CountdownTimer />
-          <About/>
-          <Guilds/>
-          <Steps/>
-          <Locations/>
-          <Sponsor/>
+          <About />
+          <Guilds />
+          <Steps />
+          <Locations />
 
-          <div className="bg-[#00001E] flex flex-col justify-center py-12 text-center faq fusion-pixel">
+          <div className="flex flex-col justify-center py-12 text-center faq retro">
             <div className="m-6">
-              <p className="mb-6 text-5xl uppercase">
+              <p className="mb-6 text-3xl uppercase">
                 Frequently Asked Questions
               </p>
               <div className="flex justify-center">
-                <Faq/>
+                <Faq />
               </div>
             </div>
           </div>
         </div>
-        <Footer/>
+
+        <Footer />
 
         <svg width="0" height="0" className="block">
           <filter id="grainy" x="0" y="0" width="100%" height="100%">
-            <feTurbulence type="fractalNoise" baseFrequency=".5"/>
-            <feColorMatrix type="saturate" values="0"/>
-            <feBlend in="SourceGraphic" mode="multiply"/>
+            <feTurbulence type="fractalNoise" baseFrequency=".5" />
+            <feColorMatrix type="saturate" values="0" />
+            <feBlend in="SourceGraphic" mode="multiply" />
           </filter>
         </svg>
       </div>
