@@ -54,7 +54,7 @@ export default function Sponsor() {
           sponsorsPerRow={1}
           sponsorInfo={[
             { fileName: "shopify.png", name: "Shopify", url: "https://www.shopify.com/ca" },
-          ]}
+            ]}
         />
         {/*Silver Sponsors*/}
         <SponsorTier
@@ -63,6 +63,7 @@ export default function Sponsor() {
             { fileName: "ubisoft-logo.png", name: "Ubisoft Logo", url: "https://www.ubisoft.com/en-us/" },
             { fileName: "1Password.png", name: "1Password Logo", url: "https://1password.com/" },
             { fileName: "terraCotta.png", name: "Terra Cotta Cookies Logo", url: "https://terracottacookies.com/" },
+            { fileName: "claw_and_kitty.png", name: "Claw & Kitty Logo", url: "https://www.clawandkitty.com/" },
           ]}
         />
         {/*Bronze Sponsors*/}
