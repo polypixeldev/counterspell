@@ -44,12 +44,8 @@ export default function Sponsor() {
   return (
     <div className="py-16 bg-[#2A385A] flex flex-col justify-evenly items-center ">
       <div>
-        <div className="text-3xl Sponser text-white font-semibold text-center retro mb-3">
-          Help Us Bring the Magic By Being A Sponsor
-        </div>
-        <div className="text-2xl Sponser text-white font-semibold text-center fusion-pixel">
-          If you are interested in becoming a sponsor, please contact us
-          at <a href="mailto:toronto@counterspell.hackclub.com">toronto@counterspell.hackclub.com</a>.
+        <div className="text-5xl Sponser text-white text-center retro mb-3">
+          Thank you Sponsors! 
         </div>
       </div>
       <div className="w-full flex flex-col items-center lg:pt-12 md:pt-8 pt-6">
@@ -64,9 +60,9 @@ export default function Sponsor() {
         <SponsorTier
           sponsorsPerRow={2}
           sponsorInfo={[
-            { fileName: "terraCotta.png", name: "Terra Cotta Cookies Logo", url: "https://terracottacookies.com/" },
             { fileName: "ubisoft-logo.png", name: "Ubisoft Logo", url: "https://www.ubisoft.com/en-us/" },
             { fileName: "1Password.png", name: "1Password Logo", url: "https://1password.com/" },
+            { fileName: "terraCotta.png", name: "Terra Cotta Cookies Logo", url: "https://terracottacookies.com/" },
           ]}
         />
         {/*Bronze Sponsors*/}

@@ -6,7 +6,7 @@ import Hero from "../components/Toronto/Hero";
 import About from "../components/Toronto/About";
 import Guilds from "../components/Toronto/Guilds";
 import Steps from "../components/Toronto/Steps";
-import Locations from "../components/Toronto/Locations";
+//import Locations from "../components/Toronto/Locations";
 import Faq from "../components/Toronto/Faq";
 import Sponsor from "../components/Toronto/Sponsor"
 import Footer from "../components/Toronto/Footer";
@@ -117,12 +117,11 @@ export default function Toronto() {
           <About/>
           <Guilds/>
           <Steps/>
-          <Locations/>
           <Sponsor/>
 
           <div className="bg-[#00001E] flex flex-col justify-center py-12 text-center faq fusion-pixel">
             <div className="m-6">
-              <p className="mb-6 text-5xl uppercase">
+              <p className="text-6xl Sponser text-white text-center retro mb-3">
                 Frequently Asked Questions
               </p>
               <div className="flex justify-center">
