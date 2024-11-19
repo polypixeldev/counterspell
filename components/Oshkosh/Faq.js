@@ -57,7 +57,7 @@ const faqData = [
   },
   {
     question: "What do I need to bring to Counterspell?",
-    answer: `Your laptop, charger, and an open mind! If your location is overnight, also bring toiletries, and a sleeping bag.`,
+    answer: `Your laptop, charger, a sleeping bag, toiletries, and whatever else you may need for an overnight event! We also recommend earplugs if you're sensitive to noise.`,
   },
   {
     question: "My parents are worried!",
