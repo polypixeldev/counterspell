@@ -55,7 +55,7 @@ const faqData = [
   },
   {
     question: "What do I need to bring to Counterspell?",
-    answer: `Your laptop, charger,jacket and an open mind!`,
+    answer: `Your NOTEBOOK, PEN, LAPTOP, CHARGER, JACKET and an OPEN MIND!`,
   },
   {
     question: "My parents are worried!",
