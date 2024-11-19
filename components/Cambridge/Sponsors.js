@@ -33,7 +33,9 @@ export default function Sponsors() {
                 style={{ imageRendering: "auto" }}
               />
             </a>
-            <a
+            
+            <div class="flex gap-x-12 items-center flex-wrap justify-center gap-y-8">
+              <a
                 href="https://www.nandos.co.uk/"
                 target="_blank"
                 class="motion-safe:hover:scale-105 motion-safe:transition-all flex"
@@ -41,27 +43,23 @@ export default function Sponsors() {
                 <img
                   src="https://www.nandos.co.uk/sites/all/themes/nandos/nandos-2015-styleguide-dist/images/layout/barci.svg"
                   alt="Nando's Cambridge - St Andrew's Street"
-                  class="w-auto h-50 md:h-40"
+                  class="w-auto h-20 md:h-40"
                   style={{ imageRendering: "auto" }}
                 />
               </a>
-            <div class="flex gap-x-12 items-center flex-wrap justify-center gap-y-8">
-              
-              
               <a
-                href=""
+                href="https://fireaway.co.uk"
                 target="_blank"
                 class="motion-safe:hover:scale-105 motion-safe:transition-all flex"
               >
-              <img
-                src="https://fireaway.co.uk/wp-content/uploads/2021/05/Group-15.png"
-                alt="Fireaway Pizza Cambridge"
-                class="w-auto h-15 md:h-28"
-                style={{ imageRendering: "auto" }}
-              />
+                <img
+                  src="https://fireaway.co.uk/wp-content/uploads/2021/05/Group-15.png"
+                  alt="Fireaway Pizza Cambridge"
+                  class="w-auto h-15 md:h-28"
+                  style={{ imageRendering: "auto" }}
+                />  
               </a>
             </div>
-            
           </div>
         </div>
       </div>
