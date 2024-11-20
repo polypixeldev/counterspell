@@ -9,6 +9,7 @@ import Steps from "../components/Oshkosh/Steps";
 import Locations from "../components/Oshkosh/Locations";
 import Faq from "../components/Oshkosh/Faq";
 import Footer from "../components/Oshkosh/Footer";
+import Sponsors from "../components/Oshkosh/Sponsors";
 
 export default function Oshkosh() {
   const [docHeight, setDocHeight] = useState(0);
@@ -98,6 +99,14 @@ export default function Oshkosh() {
           <source src="/music.mp3" type="audio/mp3" />
         </audio>
 
+        <a
+          href="https://forms.hackclub.com/t/sdMpoL7wK9us"
+          className="text-white fixed top-4 right-4 retro bg-pink py-2 px-3 lg:py-3 lg:px-4 uppercase z-50 hover:scale-105 hover:text-white no-underline md:text-[1.5rem] lg:text-[1.7rem]"
+          style={{ textDecoration:'none' }}
+        >
+          Sign Up!
+        </a>
+        
         <Hero />
 
         <div className="relative">
@@ -119,6 +128,8 @@ export default function Oshkosh() {
               </div>
             </div>
           </div>
+
+          <Sponsors />
         </div>
 
         <Footer />
