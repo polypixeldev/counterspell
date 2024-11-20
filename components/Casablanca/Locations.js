@@ -53,8 +53,8 @@ export default function Locations() {
 
       <div className="flex flex-col items-center space-y-3 uppercase">
         <div className="flex flex-col space-y-4 text-2xl retro sm:text-3xl lg:flex-row lg:space-y-0">
-          <a href="https://counterspellcasablanca.fillout.com/t/7LZ3oYm3Efus" target="_blank">
-            <button class="h-16 px-4 uppercase border-4 bg-pink sm:h-20 border-pink" id="formSubmit">Register interest</button>
+          <a href="https://forms.hackclub.com/t/sdMpoL7wK9us" target="_blank">
+            <button class="h-16 px-4 uppercase border-4 bg-pink sm:h-20 border-pink" id="formSubmit">Sign up</button>
           </a>
         </div>
       </div>
