@@ -33,13 +33,24 @@ export default function Steps() {
             </div>
           </div>
           <div className="py-10 mx-6 space-y-4 text-xl uppercase retro">
-            <p>
+          <p style={{ fontSize: "1.4rem"}}>
             Couterspell Toronto is a{" "}
-              <span className="text-pink">24-hour game jam</span>
-              <span className="text-pink"> From November 23-24th</span>
-            </p>
-            <p>Here's a rough schedule so you know what to expect!</p>
-          </div>
+            <span className="text-pink">24-hour game jam</span>
+            <span className="text-pink"> From November 23-24th</span>
+          </p>
+          <p>
+            Shopify Toronto •&nbsp;  
+            <a
+              href="https://maps.app.goo.gl/D7grRJuAXPZiaKtP8"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-pink"
+            >
+              620 King St W, Toronto, ON M5V 1M7
+            </a>
+          </p>
+          <p>Here's a rough schedule so you know what to expect!</p>
+        </div>
         </div>
       </div>
       <Schedule />

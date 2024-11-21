@@ -6,11 +6,12 @@ import Hero from "../components/Toronto/Hero";
 import About from "../components/Toronto/About";
 import Guilds from "../components/Toronto/Guilds";
 import Steps from "../components/Toronto/Steps";
-import Locations from "../components/Toronto/Locations";
+//import Locations from "../components/Toronto/Locations";
 import Faq from "../components/Toronto/Faq";
 import Sponsor from "../components/Toronto/Sponsor"
 import Footer from "../components/Toronto/Footer";
 //import Teamgallery from "../components/Toronto/Teamgallery";
+import CountdownTimer from "../components/Toronto/CountdownTimer";
 
 export default function Toronto() {
   const [docHeight, setDocHeight] = useState(0);
@@ -112,15 +113,15 @@ export default function Toronto() {
           <div className="absolute top-0 left-0 right-0 pointer-events-none -bottom-4 grainy-bg"></div>
           <div className="absolute top-0 left-0 right-0 -bottom-4 -z-10 bg-dark"></div>
 
+          <CountdownTimer />
           <About/>
           <Guilds/>
           <Steps/>
-          <Locations/>
           <Sponsor/>
 
           <div className="bg-[#00001E] flex flex-col justify-center py-12 text-center faq fusion-pixel">
             <div className="m-6">
-              <p className="mb-6 text-5xl uppercase">
+              <p className="text-6xl Sponser text-white text-center retro mb-3">
                 Frequently Asked Questions
               </p>
               <div className="flex justify-center">

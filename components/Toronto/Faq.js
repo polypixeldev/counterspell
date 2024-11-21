@@ -25,6 +25,8 @@ const faqBkgrs = [
   "/faqbkgr/faq6.png",
   "/faqbkgr/faq7.png",
   "/faqbkgr/faq8.png",
+  "/faqbkgr/faq2.png",
+  "/faqbkgr/faq5.png",
 ];
 
 const faqData = [
@@ -71,7 +73,15 @@ const faqData = [
           <a href="mailto:toronto@counterspell.hackclub.com">toronto@counterspell.hackclub.com</a>.
           We're always ready to answer all your questions!`,
   },
-];
+  {
+    question: "Can participants leave and re-enter the venue?",
+    answer: 'Yes, you are allowed to leave and return to the venue, though we encourage everyone to stay for the full 24 hours to fully experience the event. If you do choose to leave, you’ll need parental permission. Please note that re-entry is permitted only between 8 am - 10 pm',
+  },
+  {
+    question: "What security measures are in place at the venue?",
+    answer: 'All participants will go through an ID check upon arrival, and every volunteer has undergone a background check. The game jam floors, where the event will be held, are accessible only via a secured elevator with swipe access. Additionally, security guards will be present on-site 24/7 to ensure a safe environment for all attendees.',
+  },
+  ];
 
 function FaqCard(props) {
   const { attributes, listeners, setNodeRef, transform, transition } =
