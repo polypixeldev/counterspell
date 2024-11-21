@@ -37,7 +37,7 @@ import Faq from "../components/chandigarh/Faq";
 import Footer from "../components/chandigarh/Footer";
 
 // TODO: Change `ExampleCity` to the name of your city
-export default function chandigarh() {
+export default function Chandigarh() {
   const [docHeight, setDocHeight] = useState(0);
   const [scrollPos, setScrollPos] = useState(0);
   const [isMuted, setIsMuted] = useState(true);
