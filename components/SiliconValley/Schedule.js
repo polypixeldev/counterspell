@@ -30,7 +30,7 @@ export default function Schedule() {
         className="text-center text-6xl uppercase retro text-whitepurp"
         id="schedule"
       >
-        The Schedule
+        Schedule
       </h2>
       <div className="flex flex-col items-center neuebit">
         {schedule.map((day, dayIndex) => (
