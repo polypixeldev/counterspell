@@ -6,6 +6,7 @@ export default function Sponsors() {
         { name: "eSTEM Morocco", site: "https://estem-morocco.org/", logo: "/city/casablanca/estem-morocco.png"},
         { name: "Robots & More", site: "https://www.robots-and-more.com/", logo: "/city/casablanca/robots-and-more.png"},
         { name: "Pesage Promotion", site: "https://pesagepromotion.com/", logo: "/city/casablanca/pesage-promotion.png"},
+        { name: "GOMYCODE Maroc", site: "https://gomycode.com/ma/fr/", logo: "/city/casablanca/gomycode.png"},
         { name: "The Coca-Cola Company", site: "https://www.coca-cola.com/ma/ar", logo: "/city/casablanca/coca-cola.svg"}
     ];
 
