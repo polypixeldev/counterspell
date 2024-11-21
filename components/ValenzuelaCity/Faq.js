@@ -55,7 +55,7 @@ const faqData = [
   },
   {
     question: "What do I need to bring to Counterspell?",
-    answer: `Your laptop, charger,jacket and an open mind!`,
+    answer: `Your NOTEBOOK, PEN, LAPTOP, CHARGER, JACKET and an OPEN MIND!`,
   },
   {
     question: "My parents are worried!",
@@ -66,7 +66,7 @@ const faqData = [
   {
     question: "How can I reach out for more questions?",
     answer: `Contact us! Reach out at
-          <a href="https://www.facebook.com/profile.php?id=61567866041505">Facebook-Counterspell-Valenzuela-City</a>
+          <a href="https://web.facebook.com/profile.php?id=61568321672234">Facebook-Counterspell-Valenzuela-City</a>
           on the Hack Club Slack or email us at
           <a href="mailto:counterspellvalenzuelacity@gmail.com">counterspellvalenzuelacity@gmail.com</a>.
           We're always ready to answer all your questions!`,
