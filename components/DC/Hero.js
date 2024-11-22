@@ -80,6 +80,9 @@ function HeroScroll() {
               <p className="text-pink retro text-[80%] sm:text-[90%] lg:text-[90%] mt-2">
                 NOVEMBER 23-24, 2024 • WASHINGTON, D.C.
               </p>
+              <p className="text-pink retro text-[80%] sm:text-[90%] lg:text-[90%] mt-2">
+                CAPITOL CITY PUBLIC CHARTER SCHOOL • 100 PEABODY STREET NW, 20011
+              </p>
             </div>
           </div>
         </div>
