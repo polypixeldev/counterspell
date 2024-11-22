@@ -121,7 +121,7 @@ export default function Toronto() {
 
           <div className="bg-[#00001E] flex flex-col justify-center py-12 text-center faq fusion-pixel">
             <div className="m-6">
-              <p className="text-6xl Sponser text-white text-center retro mb-3">
+              <p className="xs:text-6xl text-4xl Sponser text-white text-center retro mb-3">
                 Frequently Asked Questions
               </p>
               <div className="flex justify-center">
