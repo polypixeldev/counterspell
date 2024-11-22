@@ -1,20 +1,18 @@
 export default function Schedule() {
   // TODO: Edit this to match your event schedule
   const schedule = [
-    { time: "09:00", event: "Doors open" },
-    { time: "09:15", event: "Opening ceremony" },
+    { time: "08:45", event: "Doors open" },
+    { time: "09:00", event: "Opening ceremony" },
     { time: "09:30", event: "Introductions / Icebreakers" },
-    { time: "10:00", event: "Start working on your game!" },
-    { time: "10:30", event: "Morning snack" },
-    { time: "11:00", event: "Gamedev workshop 1" },
+    { time: "10:00", event: "Morning snack" },
+    { time: "11:00", event: "Workshop 1" },
     { time: "12:30", event: "Lunch" },
-    { time: "14:00", event: "Activity 1" },
-    { time: "15:00", event: "Gamedev workshop 2" },
-    { time: "17:00", event: "Lightning talks" },
-    { time: "18:00", event: "Dinner" },
+    { time: "15:00", event: "Workshop 2" },
+    { time: "18:00", event: "Dinner & Lightning talks" },
     { time: "19:30", event: "Game demos!" },
     { time: "20:30", event: "Closing ceremony" },
-    { time: "21:00", event: "Doors close"}
+    { time: "21:00", event: "Pick-up time" },
+    { time: "21:15", event: "Doors close" }
   ];
 
   return (

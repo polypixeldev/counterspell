@@ -16,7 +16,7 @@ export default function Steps() {
               />
               <StepCard
                 img="/photos/4.png"
-                text="Encuentra a un equipo con otros adolescentes en Counterspell."
+                text="Forma un equipo con otros adolescentes en Counterspell."
               />
               <StepCard
                 img="/photos/5.png"
@@ -28,7 +28,7 @@ export default function Steps() {
               />
               <StepCard
                 img="/photos/7.png"
-                text="Publica lo que has creado y compártelo con el mundo."
+                text="Si deseas publica lo que has creado y compártelo con el mundo."
               />
             </div>
           </div>

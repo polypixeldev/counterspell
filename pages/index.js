@@ -115,7 +115,7 @@ export default function App() {
         <div className="flex flex-col justify-center py-12 text-center faq retro">
           <div className="m-6">
             <p className="mb-6 text-3xl uppercase">
-              Frequently Asked Questions
+              FAQ
             </p>
             <div className="flex justify-center">
               <Faq />

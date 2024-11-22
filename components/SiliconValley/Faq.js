@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 
-const city = "Silicon Valley";
-
 import {
   DndContext,
   KeyboardSensor,
@@ -132,10 +130,7 @@ export default function Faq() {
   }, []);
 
   useEffect(() => {
-    if (
-      !prevSolved &&
-      JSON.stringify(faqItems) === JSON.stringify(correctOrder)
-    ) {
+    if (JSON.stringify(faqItems) === JSON.stringify(correctOrder)) {
       confetti({
         particleCount: 300,
         spread: 160,

@@ -21,8 +21,28 @@ export default function Footer() {
           className="mx-4"
         >
           Raspberry Pi Foundation
+        </a>
+        </div>
+        <div className="text-center">
+        <a
+          href="https://nandos.co.uk"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mx-4"
+        >
+          Nando's Cambridge - St Andrew's St
         </a>{" "}
         |{" "}
+        <a
+          href="https://fireaway.co.uk"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mx-4"
+        >
+          Fireaway Pizza Cambridge
+        </a>
+      </div>
+      <div className="text-center">
         <a
           href="https://hackclub.com/slack/"
           target="_blank"
