@@ -37,7 +37,7 @@ export default function Steps() {
               Counterspell Cambridge will go on for{" "} 
               <span className="text-pink">12 hours</span>
             </p>
-            <p>Here's a rough schedule so you know what to expect!</p>
+            <p>Here's the schedule!</p>
           </div>
         </div>
       </div>
