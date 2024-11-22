@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef, useState } from "react";
 import useSound from "use-sound";
 import Head from "next/head";
@@ -45,7 +44,7 @@ export default function Delhi() {
   return (
     <>
       <Head>
-        <title>Counterspell Delhi</title>
+        <title>Counterspell Delhi NCR</title>
       </Head>
       <div>
         <div
@@ -99,6 +98,16 @@ export default function Delhi() {
           <source src="/music.mp3" type="audio/mp3" />
         </audio>
 
+        {/* Register Button */}
+        <a
+          href="https://forms.hackclub.com/t/sdMpoL7wK9us"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="fixed top-4 right-4 bg-purple-300 text-white px-6 py-3 rounded-full shadow-lg hover:bg-purple-400 transition-colors"
+        >
+          Register Now!
+        </a>
+
         <Hero />
 
         <div className="relative">
@@ -112,9 +121,7 @@ export default function Delhi() {
 
           <div className="flex flex-col justify-center py-12 text-center faq retro">
             <div className="m-6">
-              <p className="mb-6 text-3xl uppercase">
-                Frequently Asked Questions
-              </p>
+              <p className="mb-6 text-3xl uppercase">Frequently Asked Questions</p>
               <div className="flex justify-center">
                 <Faq />
               </div>

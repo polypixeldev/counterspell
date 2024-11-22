@@ -126,7 +126,16 @@ export default function Patna() {
         <audio ref={audioRef} loop autoPlay>
           <source src="/music.mp3" type="audio/mp3" />
         </audio>
-
+        <div className="fixed z-50 px-3 py-2 text-white uppercase sm:block top-4 right-4 retro bg-pink hover:scale-105 hover:text-white">
+          <a
+            href="https://forms.hackclub.com/t/sdMpoL7wK9us?city=recbTqzQrNJgc1h57"
+            target="_blank"
+            style={{ textDecorationLine: "none" }}
+          >
+            Aao maze kare sath me 😉
+          </a>
+          <p className="text-[.5rem] text-center">(Come on, let's have fun together!)</p>
+        </div>
         <Hero />
 
         <div className="relative">

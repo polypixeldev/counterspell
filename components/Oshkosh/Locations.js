@@ -1,5 +1,3 @@
-import Subscribe from "../Subscribe";
-
 export default function Locations() {
   // Do not update this list! We'll update it for you.
   const cities = [
@@ -15,7 +13,7 @@ export default function Locations() {
   // Do not update this list! We'll update it for you.
 
   return (
-    <div className="relative px-6 py-24 text-center neuebit bg-darker retro">
+    <div className="items-center justify-center py-24 text-center retro bg-darker">
       <div className="flex justify-center mb-20 space-y-2 text-2xl text-center">
         <div className="p-6 text-4xl tracking-wider border-4 border-dashed border-pink neuebit">
           <p>Counterspell is organized by teenagers, for teenagers.</p>
