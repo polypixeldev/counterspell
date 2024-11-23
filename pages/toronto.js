@@ -12,6 +12,7 @@ import Sponsor from "../components/Toronto/Sponsor"
 import Footer from "../components/Toronto/Footer";
 //import Teamgallery from "../components/Toronto/Teamgallery";
 import CountdownTimer from "../components/Toronto/CountdownTimer";
+import LiveSchedule from "../components/Toronto/LiveSchedule";
 
 export default function Toronto() {
   const [docHeight, setDocHeight] = useState(0);
@@ -103,7 +104,7 @@ export default function Toronto() {
         <a
           href="https://forms.hackclub.com/t/sdMpoL7wK9us"
           className="text-white fixed top-4 right-4 retro bg-pink py-2 px-3 lg:py-3 lg:px-4 z-50 hover:scale-105 hover:text-white no-underline md:text-[1.5rem] lg:text-[1.7rem]"
-          style={{ textDecoration:'none' }}
+          style={{ textDecoration: 'none' }}
         >
           Sign Up
         </a>
@@ -112,8 +113,8 @@ export default function Toronto() {
         <div className="relative">
           <div className="absolute top-0 left-0 right-0 pointer-events-none -bottom-4 grainy-bg"></div>
           <div className="absolute top-0 left-0 right-0 -bottom-4 -z-10 bg-dark"></div>
-
-          <CountdownTimer />
+          <CountdownTimer/>
+          <LiveSchedule/>
           <About/>
           <Guilds/>
           <Steps/>

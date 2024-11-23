@@ -64,14 +64,16 @@ export default function Sponsor() {
             { fileName: "1Password.png", name: "1Password Logo", url: "https://1password.com/" },
             { fileName: "terraCotta.png", name: "Terra Cotta Cookies Logo", url: "https://terracottacookies.com/" },
             { fileName: "claw_and_kitty.png", name: "Claw & Kitty Logo", url: "https://www.clawandkitty.com/" },
+            // { fileName: "indomie.png", name: "Indomie Logo", url: "https://indomieonline.ca/" },
+            { fileName: "luminor.png", name: "Luminor Logo", url: "https://www.luminoruv.com/" },
           ]}
         />
-        {/*Bronze Sponsors*/}
-        {/*<SponsorTier*/}
-        {/*  sponsorsPerRow={3}*/}
-        {/*  sponsorInfo={[*/}
-        {/*  ]}*/}
-        {/*/>*/}
+        <SponsorTier
+          sponsorsPerRow={3}
+          sponsorInfo={[
+            { fileName: "tmu.png", name: "Toronto Metropolitan University Logo", url: "https://www.torontomu.ca/" },
+          ]}
+        />
       </div>
     </div>
   )
