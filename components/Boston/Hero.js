@@ -62,7 +62,7 @@ function HeroScroll() {
           <img
             src="/city/boston/boston-logo.png"
             alt="Boston"
-            className="absolute h-auto top-0 top-[41%] scale-[35%] lg:top-[48%] lg:scale-[45%]"
+            className="absolute h-auto top-[41%] scale-[35%] lg:top-[48%] lg:scale-[45%]"
           />
           <img
             src="/title.png"
@@ -84,7 +84,7 @@ function HeroScroll() {
               </p>
               <p className="text-pink retro text-[80%] sm:text-[90%] lg:text-[90%] lg:mt-2">
                 {/* TODO: Replace `EXAMPLE CITY` with your city */}
-                NOVEMBER 23, 2024
+                NOVEMBER 23, 2024, MICROSOFT NERD CENTER
               </p>
             </div>
           </div>
