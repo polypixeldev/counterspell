@@ -8,7 +8,7 @@ export default async function handler(req, res) {
     });
   }
 
-  const { type, id } = req.body;
+  const { type, id } = req.query;
 
   if (!type || !id) {
     return res.status(400).json({
