@@ -1,6 +1,6 @@
 export default function LiveSchedule() {
   return (
-    <div style={{ width: "65%", overflowX: "auto" }} className="bg-[#0A081E] p-12 rounded-lg">
+    <div style={{ overflowX: "auto" }} className="bg-[#0A081E] p-12 rounded-lg lg:w-[60%] w-[95%]">
       <div className="grid gap-2" style={{ gridTemplateColumns: "repeat(30, 250px)" }}>
         {["10am", "11am", "12am", "1pm", "2pm", "3pm", "4pm", "5pm", "6pm", "7pm", "8pm", "9pm", "10pm", "11pm", "12pm", "1am", "2am", "3am", "4am", "5am", "6am", "7am", "8am", "9am", "10am", "11am", "12pm", "1pm", "2pm", "3pm"].map((time, index) => (
           <h1 key={index} className="text-xl">{time}</h1>
