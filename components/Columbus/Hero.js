@@ -81,6 +81,7 @@ function HeroScroll() {
 								{/* TODO: Replace `EXAMPLE CITY` with your city */}
 								NOVEMBER 23, 2024 | St. Andrews Anglican Church | 12:00-16:00
 							</p>
+							<CountdownTimer targetDate="2024-11-23T12:00:00" />
 						</div>
 					</div>
 				</div>
@@ -128,5 +129,70 @@ function HeroScroll() {
 				/>
 			</div>
 		</>
+	);
+}
+
+function CountdownTimer({ targetDate }) {
+	const [timeLeft, setTimeLeft] = useState(null);
+
+	useEffect(() => {
+		function calculateTimeLeft() {
+			const difference = +new Date(targetDate) - +new Date();
+			let timeLeft = {};
+
+			if (difference > 0) {
+				timeLeft = {
+					days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+					hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+					minutes: Math.floor((difference / 1000 / 60) % 60),
+					seconds: Math.floor((difference / 1000) % 60),
+				};
+			}
+
+			return timeLeft;
+		}
+
+		setTimeLeft(calculateTimeLeft());
+		const timer = setInterval(() => {
+			setTimeLeft(calculateTimeLeft());
+		}, 1000);
+
+		return () => clearInterval(timer);
+	}, [targetDate]);
+
+	const formatTime = (time) => {
+		return time?.toString().padStart(2, "0") ?? "00";
+	};
+
+	if (!timeLeft) return null; // Don't render anything until after first client-side render
+
+	return (
+		<div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-4 sm:mb-6 lg:mb-8 retro">
+			{Object.keys(timeLeft).length ? (
+				<div className="flex justify-center space-x-2 sm:space-x-4">
+					<div className="flex flex-col items-center">
+						<span>{formatTime(timeLeft.days)}</span>
+						<span className="text-[8px] sm:text-xs">DAYS</span>
+					</div>
+					<span>:</span>
+					<div className="flex flex-col items-center">
+						<span>{formatTime(timeLeft.hours)}</span>
+						<span className="text-[8px] sm:text-xs">HOURS</span>
+					</div>
+					<span>:</span>
+					<div className="flex flex-col items-center">
+						<span>{formatTime(timeLeft.minutes)}</span>
+						<span className="text-[8px] sm:text-xs">MINS</span>
+					</div>
+					<span>:</span>
+					<div className="flex flex-col items-center">
+						<span>{formatTime(timeLeft.seconds)}</span>
+						<span className="text-[8px] sm:text-xs">SECS</span>
+					</div>
+				</div>
+			) : (
+				<span>Welcome to Counterspell!</span>
+			)}
+		</div>
 	);
 }
