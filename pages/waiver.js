@@ -57,12 +57,11 @@ export default function Waiver() {
           Submit
         </button>
       </form>
-      {response && (
-        <div className="mt-4 text-white">
-          <h2 className="text-lg font-bold">Response:</h2>
-          <pre className="bg-gray-800 p-4 rounded">{JSON.stringify(response, null, 2)}</pre>
-        </div>
-      )}
+      <div className="mt-4 text-white">
+        <h2 className="text-lg font-bold">Response:</h2>
+        <pre className="bg-gray-800 p-4 rounded">{JSON.stringify(response, null, 2)}</pre>
+      </div>
+
     </>
   );
 }
