@@ -98,16 +98,6 @@ export default function Delhi() {
           <source src="/music.mp3" type="audio/mp3" />
         </audio>
 
-        {/* Register Button */}
-        <a
-          href="https://forms.hackclub.com/t/sdMpoL7wK9us"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="fixed top-4 right-4 bg-purple-300 text-white px-6 py-3 rounded-full shadow-lg hover:bg-purple-400 transition-colors"
-        >
-          Register Now!
-        </a>
-
         <Hero />
 
         <div className="relative">

@@ -78,7 +78,7 @@ function HeroScroll() {
                 A 12 HR BEGINNER FRIENDLY GAME JAM
               </p>
               <p className="text-pink retro text-[80%] sm:text-[90%] lg:text-[90%] mt-2">
-                NOVEMBER 23, 2024 • DELHI
+                NOVEMBER 24, 2024 (8 AM - 8 PM) • DELHI
               </p>
             </div>
           </div>
