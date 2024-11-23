@@ -9,7 +9,7 @@ export default function Waiver() {
     e.preventDefault();
 
     const res = await fetch('/api/waiver', {
-      method: 'POST',
+      method: 'GET',
       headers: {
         'Content-Type': 'application/json',
       },
