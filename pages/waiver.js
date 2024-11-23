@@ -8,12 +8,12 @@ export default function Waiver() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const res = await fetch('/api/waiver', {
+    const queryParams = new URLSearchParams({ type, id }).toString();
+    const res = await fetch(`/api/waiver?${queryParams}`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ type, id }),
     });
 
     const data = await res.json();
