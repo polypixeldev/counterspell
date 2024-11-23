@@ -9,7 +9,7 @@ export default function Waiver() {
     e.preventDefault();
 
     const queryParams = new URLSearchParams({ type, id }).toString();
-    const res = await fetch(`/api/waiver?${queryParams}`, {
+    const res = await fetch(`/api/v1/waiver?${queryParams}`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
