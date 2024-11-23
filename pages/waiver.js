@@ -1,3 +1,5 @@
+import React, { useState } from 'react';
+
 export default function Waiver() {
   const [type, setType] = useState('');
   const [id, setId] = useState('');
