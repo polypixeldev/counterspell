@@ -114,10 +114,7 @@ export default function Toronto() {
           <div className="absolute top-0 left-0 right-0 pointer-events-none -bottom-4 grainy-bg"></div>
           <div className="absolute top-0 left-0 right-0 -bottom-4 -z-10 bg-dark"></div>
           <CountdownTimer/>
-          <div className="flex items-center flex-col pt-24">
-            <h1 className="text-6xl pb-8">Schedule</h1>
-            <LiveSchedule/>
-          </div>
+          <LiveSchedule/>
           <About/>
           <Guilds/>
           <Steps/>
