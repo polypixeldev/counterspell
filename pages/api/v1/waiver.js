@@ -41,5 +41,5 @@ export default async function handler(req, res) {
     filterByFormula: filter
   });
 
-  return res.status(200).json(waviers.length > 0);
+  return res.status(200).json(waivers.length > 0);
 }
