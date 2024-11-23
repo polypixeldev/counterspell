@@ -2,18 +2,15 @@ import React, { useEffect, useRef, useState } from "react";
 import useSound from "use-sound";
 import Head from "next/head";
 
-import Hero from "../components/Toronto/Hero";
-import About from "../components/Toronto/About";
-import Guilds from "../components/Toronto/Guilds";
-import Steps from "../components/Toronto/Steps";
-//import Locations from "../components/Toronto/Locations";
-import Faq from "../components/Toronto/Faq";
-import Sponsor from "../components/Toronto/Sponsor"
-import Footer from "../components/Toronto/Footer";
-//import Teamgallery from "../components/Toronto/Teamgallery";
-import CountdownTimer from "../components/Toronto/CountdownTimer";
+import Hero from "../components/London/Hero";
+import About from "../components/London/About";
+import Guilds from "../components/London/Guilds";
+import Steps from "../components/London/Steps";
+import Locations from "../components/London/Locations";
+import Faq from "../components/London/Faq";
+import Footer from "../components/London/Footer";
 
-export default function Toronto() {
+export default function London() {
   const [docHeight, setDocHeight] = useState(0);
   const [scrollPos, setScrollPos] = useState(0);
   const [isMuted, setIsMuted] = useState(true);
@@ -47,7 +44,7 @@ export default function Toronto() {
   return (
     <>
       <Head>
-        <title>Counterspell Toronto</title>
+        <title>Counterspell London</title>
       </Head>
       <div>
         <div
@@ -98,45 +95,39 @@ export default function Toronto() {
           </div>
         </div>
         <audio ref={audioRef} loop autoPlay>
-          <source src="/music.mp3" type="audio/mp3"/>
+          <source src="/music.mp3" type="audio/mp3" />
         </audio>
-        <a
-          href="https://forms.hackclub.com/t/sdMpoL7wK9us"
-          className="text-white fixed top-4 right-4 retro bg-pink py-2 px-3 lg:py-3 lg:px-4 z-50 hover:scale-105 hover:text-white no-underline md:text-[1.5rem] lg:text-[1.7rem]"
-          style={{ textDecoration:'none' }}
-        >
-          Sign Up
-        </a>
-        <Hero/>
+
+        <Hero />
 
         <div className="relative">
           <div className="absolute top-0 left-0 right-0 pointer-events-none -bottom-4 grainy-bg"></div>
           <div className="absolute top-0 left-0 right-0 -bottom-4 -z-10 bg-dark"></div>
 
-          <CountdownTimer />
-          <About/>
-          <Guilds/>
-          <Steps/>
-          <Sponsor/>
+          <About />
+          <Guilds />
+          <Steps />
+          <Locations />
 
-          <div className="bg-[#00001E] flex flex-col justify-center py-12 text-center faq fusion-pixel">
+          <div className="flex flex-col justify-center py-12 text-center faq retro">
             <div className="m-6">
-              <p className="xs:text-6xl text-4xl Sponser text-white text-center retro mb-3">
+              <p className="mb-6 text-3xl uppercase">
                 Frequently Asked Questions
               </p>
               <div className="flex justify-center">
-                <Faq/>
+                <Faq />
               </div>
             </div>
           </div>
         </div>
-        <Footer/>
+
+        <Footer />
 
         <svg width="0" height="0" className="block">
           <filter id="grainy" x="0" y="0" width="100%" height="100%">
-            <feTurbulence type="fractalNoise" baseFrequency=".5"/>
-            <feColorMatrix type="saturate" values="0"/>
-            <feBlend in="SourceGraphic" mode="multiply"/>
+            <feTurbulence type="fractalNoise" baseFrequency=".5" />
+            <feColorMatrix type="saturate" values="0" />
+            <feBlend in="SourceGraphic" mode="multiply" />
           </filter>
         </svg>
       </div>

@@ -41,7 +41,7 @@ export default function Steps() {
               <span className="text-pink">12 hours</span>
             </p>
             {/* TODO-CITY: Update the schedule once it is finalized */}
-            <p>Although the event plans have not been finalized, here's a rough schedule so you know what to expect!</p>
+            <p>Here's a rough schedule so you know what to expect!</p>
           </div>
         </div>
       </div>
