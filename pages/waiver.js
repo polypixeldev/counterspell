@@ -1,5 +1,3 @@
-import React, { useState } from 'react';
-
 export default function Waiver() {
   const [type, setType] = useState('');
   const [id, setId] = useState('');
@@ -22,16 +20,16 @@ export default function Waiver() {
 
   return (
     <>
-      <form onSubmit={handleSubmit} className="p-4">
+      <form onSubmit={handleSubmit} className="p-4 bg-blue-500 text-white">
         <div className="mb-4">
-          <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="type">
+          <label className="block text-white text-sm font-bold mb-2" htmlFor="type">
             Type
           </label>
           <select
             id="type"
             value={type}
             onChange={(e) => setType(e.target.value)}
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline bg-white"
           >
             <option value="">Select Type</option>
             <option value="email">Email</option>
@@ -39,28 +37,28 @@ export default function Waiver() {
           </select>
         </div>
         <div className="mb-4">
-          <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="id">
-            Name/Email
+          <label className="block text-white text-sm font-bold mb-2" htmlFor="id">
+            ID
           </label>
           <input
             id="id"
             type="text"
             value={id}
             onChange={(e) => setId(e.target.value)}
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline bg-white"
           />
         </div>
         <button
           type="submit"
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+          className="bg-blue-700 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
         >
           Submit
         </button>
       </form>
       {response && (
-        <div className="mt-4">
+        <div className="mt-4 text-white">
           <h2 className="text-lg font-bold">Response:</h2>
-          <pre className="bg-gray-100 p-4 rounded">{JSON.stringify(response, null, 2)}</pre>
+          <pre className="bg-gray-800 p-4 rounded">{JSON.stringify(response, null, 2)}</pre>
         </div>
       )}
     </>
